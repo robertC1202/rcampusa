@@ -39,13 +39,15 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi, I'm Robert Campusano, a junior computer scientist at George Mason University.</p>
+    <p>Hi, I'm Robert Campusano, a junior computer scientist at George Mason University. I’m passionate about software development, data structures, and game programming, and I have hands-on experience with languages such as Java, C#, and Python.</p>
+    <p>My coursework has included Data Structures, Algorithms, and Software Engineering, where I've learned to design efficient solutions and collaborate on complex codebases. Beyond the classroom, I enjoy participating in hackathons, contributing to open-source projects, and exploring new technologies.</p>
+    <p>In my free time, I like to prototype interactive applications, solve algorithmic challenges, and stay active in the tech community through workshops and meetups. I'm always eager to learn and take on projects that push my skills further.</p>
   </section>
 
   <section id="resume">
     <h2>Resume</h2>
-    <p>You can download my resume here:</p>
-    <a href="Robert%20Resume%20%281%29.pdf" download>Download My Resume (PDF)</a>
+    <p>Download my resume here:</p>
+    <a href="Robert%27s%20Resume%201.pdf" download target="_blank">Download My Resume (PDF)</a>
   </section>
 
   <section id="work">
@@ -55,8 +57,8 @@
       <div class="work-item">
         <h3>Unity Game Prototype</h3>
         <p>I collaborated with classmates to develop a game prototype using Unity and C#.</p>
-        <img src="Duck%20Soul%20Image.webp" alt="In-game screenshot of Duck Souls prototype">
-        <img src="Duck%20Soul%20Main%20Menu.webp" alt="Main menu of Duck Souls prototype">
+        <img src="Duck%20Soul%20Image.jpeg" alt="In-game screenshot of Duck Souls prototype">
+        <img src="Duck%20Soul%20Image%202.jpeg" alt="Alternative in-game screenshot of Duck Souls prototype">
       </div>
       <!-- Credit Reporting System -->
       <div class="work-item">
