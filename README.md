@@ -45,7 +45,7 @@
   <section id="resume">
     <h2>Resume</h2>
     <p>You can download my resume here:</p>
-    <a href="Robert Resume (1).pdf" download>Download My Resume (PDF)</a>
+    <a href="Robert%20Resume%20%281%29.pdf" download>Download My Resume (PDF)</a>
   </section>
 
   <section id="work">
@@ -55,8 +55,8 @@
       <div class="work-item">
         <h3>Unity Game Prototype</h3>
         <p>I collaborated with classmates to develop a game prototype using Unity and C#.</p>
-        <img src="Duck Soul Image.webp" alt="In-game screenshot of Duck Souls prototype">
-        <img src="Duck Soul Main Menu.webp" alt="Main menu of Duck Souls prototype">
+        <img src="Duck%20Soul%20Image.webp" alt="In-game screenshot of Duck Souls prototype">
+        <img src="Duck%20Soul%20Main%20Menu.webp" alt="Main menu of Duck Souls prototype">
       </div>
       <!-- Credit Reporting System -->
       <div class="work-item">
@@ -64,7 +64,6 @@
         <p>In this project, I created a system to load raw credit data files from various banks and produce comprehensive individual credit reports.</p>
         <p>The system processes CSV files submitted by credit-card institutions, validates data to avoid errors, and generates reports efficiently.</p>
         <p>To achieve this, I implemented data structures including Linked Lists, Stacks, Queues, and Hash Tables for effective data retrieval, sorting, and reporting.</p>
-        <p>Input files follow the <code>&lt;CreditorID&gt;_&lt;YearMonth&gt;.csv</code> format (e.g., <code>C090_202408.csv</code>) and are placed in a <code>dataset</code> folder.</p>
       </div>
     </div>
   </section>
