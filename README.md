@@ -26,7 +26,6 @@
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About Me</a></li>
-        <li><a href="#resume">Resume</a></li>
         <li><a href="#work">My Work</a></li>
       </ul>
     </nav>
@@ -40,12 +39,6 @@
   <section id="about">
     <h2>About Me</h2>
     <p>Hi, I'm Robert Campusano, a junior computer scientist at George Mason University.</p>
-  </section>
-
-  <section id="resume">
-    <h2>Resume</h2>
-    <p>You can download my resume here:</p>
-    <a href="resume.pdf" download>Download My Resume (PDF)</a>
   </section>
 
   <section id="work">
@@ -71,3 +64,4 @@
 
 </body>
 </html>
+
