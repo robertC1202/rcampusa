@@ -3,75 +3,107 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Robert Campusano - Game & CS Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Robert Campusano | Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background: #333; padding: 1rem; position: sticky; top: 0; }
-    nav ul { list-style: none; margin: 0; padding: 0; display: flex; }
-    nav li { margin-right: 1rem; }
-    nav a { color: #fff; text-decoration: none; }
-    section { padding: 4rem 1rem; }
-    section:nth-child(even) { background: #f4f4f4; }
-    h2 { margin-top: 0; }
-    .work-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
-    .work-item { border: 1px solid #ccc; padding: 1rem; }
-    .work-item img { max-width: 100%; height: auto; display: block; margin-bottom: 0.5rem; }
-    .work-item p { margin: 0.5rem 0; }
+    body { margin:0; font-family: sans-serif; line-height:1.6; }
+    header { position: fixed; width:100%; background: #333; padding:10px 0; z-index:100; }
+    nav { max-width:900px; margin:0 auto; text-align:center; }
+    nav a {
+      color:#fff; margin:0 15px; text-decoration:none; font-weight:500;
+    }
+    nav a:hover { text-decoration: underline; }
+    section { padding:80px 20px 40px; max-width:900px; margin:0 auto; }
+    h1,h2 { margin-bottom:10px; }
+    .btn { display:inline-block; padding:8px 15px; background:#007ACC; color:#fff; text-decoration:none; border-radius:4px; }
+    .projects { list-style:none; padding:0; }
+    .project { margin-bottom:30px; }
+    .project img { max-width:100%; height:auto; display:block; margin-top:10px; }
+    footer { text-align:center; padding:20px 0; background:#f4f4f4; margin-top:40px; }
   </style>
 </head>
 <body>
+
   <header>
     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#work">My Work</a></li>
-      </ul>
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#resume">Resume</a>
+      <a href="#work">My Work</a>
     </nav>
   </header>
 
   <section id="home">
-    <h2>Home</h2>
-    <p>Welcome to my portfolio! Explore my background, projects, and work in computer science.</p>
+    <h1>Welcome</h1>
+    <p>Hi there! I’m <strong>Robert Campusano</strong>, a junior Computer Scientist at George Mason University. Please use the nav above to learn more about me and my projects.</p>
   </section>
 
   <section id="about">
     <h2>About Me</h2>
     <p>Hi, I'm Robert Campusano, a junior computer scientist at George Mason University. I’m passionate about software development, data structures, and game programming, and I have hands-on experience with languages such as Java, C#, and Python.</p>
-    <p>My coursework has included Data Structures, Algorithms, and Software Engineering, where I've learned to design efficient solutions and collaborate on complex codebases. Beyond the classroom, I enjoy participating in hackathons, contributing to open-source projects, and exploring new technologies.</p>
-    <p>In my free time, I like to prototype interactive applications, solve algorithmic challenges, and stay active in the tech community through workshops and meetups. I'm always eager to learn and take on projects that push my skills further.</p>
   </section>
 
   <section id="resume">
     <h2>Resume</h2>
-    <p>Download my resume here:</p>
-    <a href="Robert%27s%20Resume%201.pdf" download target="_blank">Download My Resume (PDF)</a>
+    <p>
+      <a
+        class="btn"
+        href="file:///Users/robertcampusa/Downloads/Robert’s%20Resume(1).pdf"
+        target="_blank"
+        >Download My Resume (PDF)</a
+      >
+    </p>
   </section>
 
   <section id="work">
     <h2>My Work</h2>
-    <div class="work-gallery">
-      <!-- Unity Game Prototype -->
-      <div class="work-item">
+    <ul class="projects">
+      <li class="project">
         <h3>Unity Game Prototype</h3>
-        <p>I collaborated with classmates to develop a game prototype using Unity and C#.</p>
-        <img src="Duck%20Soul%20Image.jpeg" alt="In-game screenshot of Duck Souls prototype">
-        <img src="Duck%20Soul%20Image%202.jpeg" alt="Alternative in-game screenshot of Duck Souls prototype">
-      </div>
-      <!-- Credit Reporting System -->
-      <div class="work-item">
+        <p>
+          I collaborated with classmates to develop a game prototype using Unity and C#.
+        </p>
+        <!-- Example screenshot; replace path with your own -->
+        <img src="images/unity-prototype-screenshot.jpg" alt="Unity prototype screenshot">
+      </li>
+
+      <li class="project">
+        <h3>Duck Souls Prototype</h3>
+        <p>
+          An action-adventure “Souls-like” starring a brave duck. Built in Unity, featuring
+          2D→3D world transitions and challenging boss encounters.
+        </p>
+        <!-- Replace with your actual playable build or demo link -->
+        <p><a class="btn" href="downloads/duck-souls-demo.zip" download>Download Demo</a></p>
+        <!-- Example gameplay video; replace source with your video -->
+        <video controls width="100%" src="videos/duck-souls-demo.mp4">
+          Your browser doesn’t support HTML5 video.
+        </video>
+      </li>
+
+      <li class="project">
         <h3>Credit Reporting System</h3>
-        <p>In this project, I created a system to load raw credit data files from various banks and produce comprehensive individual credit reports.</p>
-        <p>The system processes CSV files submitted by credit-card institutions, validates data to avoid errors, and generates reports efficiently.</p>
-        <p>To achieve this, I implemented data structures including Linked Lists, Stacks, Queues, and Hash Tables for effective data retrieval, sorting, and reporting.</p>
-      </div>
-    </div>
+        <p>
+          In this project, I created a system to load raw credit data files from various banks and produce comprehensive individual credit reports.
+          The system processes CSV files submitted by credit-card institutions, validates data to avoid errors, and generates reports efficiently.
+        </p>
+        <p>
+          Data structures used:
+          Linked Lists, Stacks, Queues, and Hash Tables for effective
+          data retrieval, sorting, and reporting.
+        </p>
+        <!-- If you have a screenshot or link, add here -->
+      </li>
+    </ul>
   </section>
+
+  <footer>
+    <p>&copy; 2025 Robert Campusano</p>
+  </footer>
 
 </body>
 </html>
+
 
 
 
